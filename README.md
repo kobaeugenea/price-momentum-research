@@ -20,7 +20,7 @@ Key findings:
 
 - **[Norgate Data](https://norgatedata.com/)** subscription — US Equities + US Equities Delisted databases.
 - **[Ken French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)** — download `10_Portfolios_Prior_12_2_CSV.zip`, extract, and place `10_Portfolios_Prior_12_2.csv` in the project root.
-- **[yfinance](https://github.com/ranaroussi/yfinance)** — used for benchmark prices (`IVV`, `IWV`, `RSP`). Install via `pip install yfinance`.
+- **[yfinance](https://github.com/ranaroussi/yfinance)** — used for benchmark prices (`SPY`, `RSP`). Install via `pip install yfinance`.
 
 ---
 
@@ -44,7 +44,7 @@ Key findings:
 |------|-------------|
 | `plot_deciles_ew.py` | Plots cumulative returns for all 10 **equal-weighted** momentum deciles (Lo PRIOR → Hi PRIOR) using Fama-French reference data. |
 | `plot_deciles_vw.py` | Same as above but for **value-weighted** deciles. |
-| `plot_hi_prior_vs_benchmarks.py` | Compares Hi PRIOR EW and VW (from FF) against `IVV` (iShares S&P 500) and `IWV` (iShares Russell 3000) downloaded via yfinance. Both ETFs are from the same fund family; total return is captured via `Adj Close`. Chart starts at the later ETF inception date (~2000-07). |
+| `plot_hi_prior_vs_benchmarks.py` | Compares Hi PRIOR EW and VW (from FF) against `SPY` (SPDR S&P 500 ETF, inception 1993-01-22) downloaded via yfinance. Total return is captured via `Adj Close`. |
 
 ### Validation
 

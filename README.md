@@ -16,6 +16,15 @@ Key findings:
 
 ---
 
+## Articles
+
+Detailed write-ups on the methodology and findings:
+
+- [On Price Momentum (Part 1)](https://medium.com/@kobaeugenea/on-price-momentum-part-1-3c777b546420) — English (Medium)
+- [О ценовом моментуме (часть 1)](https://habr.com/ru/articles/1004740/) — Russian (Habr)
+
+---
+
 ## Data Requirements
 
 - **[Norgate Data](https://norgatedata.com/)** subscription — US Equities + US Equities Delisted databases.
